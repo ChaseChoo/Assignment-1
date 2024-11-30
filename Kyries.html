@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Basketball Shop</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="header">
+        <div class="logo">
+            <h1>🏀BASKET</h1>
+        </div>
+        <nav class="nav">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a id="type-link" href="#">Types</a></li>
+                <li><a id="blog-link" href="#">Blog</a></li>
+                <li><a id="contact-link" href="#contact-section">Contact</a></li>
+
+            </ul>
+        </nav>
+    </header>
+
+    <div class="product-details-container">
+        <!-- Product Image Section -->
+        <div class="product-image">
+            <img src="C:\Users\chase\Downloads\kyrie-7-expressions-release-date.jpg" alt="Under Armour Curry 11 Dub Unisex Shoes">
+        </div>
+    
+        <!-- Product Details Section -->
+        <div class="product-details">
+            <h2>Under Armour Curry 11 Dub Unisex Shoes</h2>
+            <p>Officially Licensed Gear</p>
+            <p>Your Price: $209.00</p>
+        <!-- Size chart section-->
+        <div class="size-chart-container">
+            <h3>Size</h3>
+            <div class="size-chart">
+                <button class="size-option">7</button>
+                <button class="size-option">8</button>
+                <button class="size-option">9</button>
+                <button class="size-option">10</button>
+                <button class="size-option">11</button>
+                <button class="size-option">12</button>
+            </div>
+            <a href="#" class="size-chart-link">View Size Chart</a>
+        </div>        
+        <!-- Add to Cart Section -->
+        <div class="product-actions">
+            <label for="quantity">Quantity:</label>
+            <select id="quantity">
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+            </select>
+            <button class="cart-btn">Add to Cart</button>
+        </div>
+    </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
